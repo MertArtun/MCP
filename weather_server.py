@@ -64,5 +64,4 @@ async def get_weather_by_city(city: str, unit: str = "metric") -> dict:
 
 
 if __name__ == "__main__":
-    # Use stdio for ChatGPT MCP; use HTTP for local/remote testing.
-    mcp.run(transport="http", port=8000)
+    mcp.run()
